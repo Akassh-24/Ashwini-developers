@@ -10,7 +10,6 @@ body {
     overflow-x: hidden;
 }
 
-/* Background video */
 #bgvideo {
     position: fixed;
     top: 0;
@@ -31,7 +30,6 @@ body {
     z-index: -1;
 }
 
-/* Header & Navigation */
 header {
     position: relative;
     z-index: 10;
@@ -66,7 +64,6 @@ header {
     color: #007bff;
 }
 
-/* Home Page Hero Description */
 .Description {
     position: relative;
     z-index: 1;
@@ -93,10 +90,6 @@ header {
     margin-bottom: 25px;
     color: #e0e0e0;
 }
-
-/* ===================================================
-   EQUIPMENT PAGE STYLES
-   =================================================== */
 
 .equip-desc {
     padding: 40px 20px 80px;
@@ -204,10 +197,6 @@ header {
     transform: translateY(-2px);
 }
 
-/* ===================================================
-   ABOUT US PAGE STYLES
-   =================================================== */
-
 .about-container {
     max-width: 1100px;
     margin: 0 auto;
@@ -215,7 +204,7 @@ header {
     color: #ffffff;
 }
 
-.about-hero {
+.about {
     text-align: center;
     margin-bottom: 40px;
 }
@@ -226,7 +215,7 @@ header {
     margin-bottom: 12px;
 }
 
-.about-tagline {
+.about-tag {
     font-size: 18px;
     color: #007bff;
     font-weight: 500;
@@ -406,10 +395,6 @@ header {
     transform: translateY(-2px);
 }
 
-/* ===================================================
-   CONTACT US PAGE STYLES
-   =================================================== */
-
 .contact-container {
     max-width: 1150px;
     margin: 0 auto;
@@ -417,7 +402,7 @@ header {
     color: #ffffff;
 }
 
-.contact-hero {
+.contact {
     text-align: center;
     margin-bottom: 35px;
 }
@@ -513,11 +498,6 @@ header {
     color: #007bff;
 }
 
-/* ===================================================
-   MOBILE & TABLET RESPONSIVE OPTIMIZATION
-   =================================================== */
-
-/* Tablet & Mobile Screens (up to 768px) */
 @media (max-width: 768px) {
     header {
         flex-direction: column;
@@ -571,7 +551,6 @@ header {
     }
 }
 
-/* Small Phone Screens (up to 480px) */
 @media (max-width: 480px) {
     header {
         padding: 12px 10px;
